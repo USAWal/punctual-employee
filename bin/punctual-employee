@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+require 'punctual/employee'
+Punctual::Employee::CommandLineInterface.new(ARGV.dup).execute!
